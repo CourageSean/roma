@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Santio Bold";
+  src: url(../fonts/Santio\ Bold.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*================ universal styling =======================*/
+.heart-logo {
+  width: 40px;
+}
+
+.svg-logo {
+  width: 200px;
+  padding-left: 12%;
+  padding-top: 100px;
+}
+
+.text-highlights {
+  color: #fff;
+  background-color: rgb(36, 32, 32);
+  text-transform: uppercase;
+}
+
+.arrow-link {
+  display: inline-block;
+  width: 15%;
+  margin-left: 1%;
+}
+.arrow-down {
+  width: 15%;
+}
+/*================== #hero- styling ==================*/
+
+#hero {
+  height: 4400px;
+  background: url(../images/cleo-topper.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner {
+  text-align: right;
+  padding-right: 10%;
+}
+
+#hero div p:first-of-type {
+  display: inline-block;
+  width: 12%;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: underline #e7bc0e;
+}
+
+#hero h1 {
+  font-size: 4.5rem;
+  font-family: "Santio Bold";
+  color: #fff;
+  width: 19%;
+  padding-left: 10%;
+}
+
+#hero > p:first-of-type {
+  display: inline-block;
+  font-size: 2rem;
+  font-family: "Mr Dafoe";
+  color: #e7bc0e;
+  padding-left: 10%;
+}
+
+#hero > p:nth-of-type(2) {
+  font-family: "Santio Bold";
+  font-weight: 400;
+  color: #6bc1a3;
+  font-size: 2rem;
+  width: 55%;
+  margin: auto;
+  line-height: 70px;
+  padding-top: 300px;
+}
+
+#hero h2:first-of-type {
+  font-family: "Santio Bold";
+  font-size: 10rem;
+  color: #e7bc0e;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+#hero h2:nth-of-type(2) {
+  font-family: "Santio Bold";
+  color: #e7bc0e;
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+#hero h2:nth-of-type(3) {
+  font-family: "Santio Bold";
+  color: #cb91b6;
+  font-size: 2.7rem;
+  padding-left: 10%;
+}
+
+#hero h2:nth-of-type(4) {
+  font-family: "Santio Bold";
+  font-size: 10rem;
+  color: #cb91b6;
+  padding-left: 10%;
+  margin-top: 0;
+}
+
+#hero h2:nth-of-type(5) {
+  font-family: "Santio Bold";
+  font-size: 10rem;
+  color: #6bc1a3;
+  padding-left: 10%;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+#hero h2:nth-of-type(6) {
+  font-family: "Santio Bold";
+  color: #6bc1a3;
+  font-size: 2.7rem;
+  padding-left: 10%;
+}
+
+#hero > p:nth-of-type(3) {
+  font-family: "Santio Bold";
+  font-weight: 400;
+  color: #7eb8e1;
+  font-size: 2rem;
+  width: 55%;
+  padding-left: 30%;
+  line-height: 70px;
+  padding-top: 150px;
+}
+
+/*================= 2nd Section =================*/
+
+#merged-images {
+  height: 880px;
+  background: url(../images/see.png) center/cover no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.kids-image {
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+/*================== Footer ====================*/
+
+footer {
+  background-color: #000;
+}
+footer p:first-of-type {
+  font-size: 4rem;
+  font-family: "Santio Bold";
+  font-weight: 400;
+  width: 50%;
+  color: #fff;
+  margin: auto;
+  padding-top: 250px;
+}
+
+footer > a:first-of-type {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  font-family: "Roboto";
+  border: solid 2px;
+  padding: 5px 1.5%;
+  margin-left: 25%;
+  margin-top: 55px;
+}
+
+footer p:last-of-type {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Roboto";
+  padding-top: 250px;
+  margin-bottom: 0;
+}
+
+footer p:last-of-type a {
+  color: #6bc1a3;
+  text-decoration: none;
+}
+
+footer > a:first-of-type:hover {
+  box-shadow: #fff 10px 10px;
+}
+
+footer p:last-of-type a:hover {
+  text-decoration: underline;
+}
